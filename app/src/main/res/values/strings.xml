@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">repaso</string>
+    <string name="white">blanco</string>
+    <string name="red">rojo</string>
+    <string name="orange">naranja</string>
+    <string name="yellow">amarillo</string>
+    <string name="green">verde</string>
+    <string name="cyan">cián</string>
+    <string name="blue">azul</string>
+    <string name="violet">violeta</string>
+    <string name="gray">gris</string>
+    <string name="black">negro</string>
+</resources>

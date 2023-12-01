@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/app"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/box1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:text="@string/white"
+        android:textColor="@color/black"
+        style="@style/TextView"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/box2"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:background="@color/red"
+            android:text="@string/red"
+            android:textColor="@color/white"
+            style="@style/TextView"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/box3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/orange"
+                    android:text="@string/orange"
+                    android:textColor="@color/black"
+                    style="@style/TextView"/>
+
+                <TextView
+                    android:id="@+id/box4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/yellow"
+                    android:text="@string/yellow"
+                    android:textColor="@color/black"
+                    style="@style/TextView"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/box5"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@color/green"
+                android:text="@string/green"
+                android:textColor="@color/black"
+                style="@style/TextView"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/box6"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@color/cyan"
+                android:text="@string/cyan"
+                android:textColor="@color/black"
+                style="@style/TextView"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/box7"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:background="@color/blue"
+                    android:text="@string/blue"
+                    android:textColor="@color/white"
+                    style="@style/TextView"/>
+
+                <TextView
+                    android:id="@+id/box8"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:background="@color/violet"
+                    android:text="@string/violet"
+                    android:textColor="@color/white"
+                    style="@style/TextView"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/box9"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="@color/gray"
+                android:text="@string/gray"
+                android:textColor="@color/white"
+                style="@style/TextView"/>
+
+            <TextView
+                android:id="@+id/box10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:text="@string/black"
+                android:textColor="@color/white"
+                style="@style/TextView"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
